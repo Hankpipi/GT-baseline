@@ -1,0 +1,1 @@
+python -u training.py --dataset squirrel --base cheb --runs 3 --seed 42 --epochs 2000 --lr 0.001 --weight_decay 1e-05 --attn_lr 0.0001 --attn_wd 0.001 --early_stopping 250 --hidden 128 --dropout 0.0 --dprate 0.9 --n_head 8 --d_ffn 64 --q 1.2 --multi 0.5 --K 10 --nlayer 1 --device_idx 0 --net PolyFormer

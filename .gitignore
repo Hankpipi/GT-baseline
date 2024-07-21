@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+**/__pycache__/
+*.o
+
+# Dataset
+/data/*
+/dataset/*
+
+# Log files
+exps/*
+*.log
+*.out
+*.txt
+*.pkl
+*.csv

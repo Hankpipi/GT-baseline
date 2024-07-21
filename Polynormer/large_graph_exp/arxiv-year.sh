@@ -1,0 +1,1 @@
+python main-batch.py --dataset arxiv-year --batch_size 100000 --hidden_channels 128 --local_epochs 2000 --lr 0.0005 --runs 1 --local_layers 7 --global_layers 2 --post_bn --device 0
